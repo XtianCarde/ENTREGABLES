@@ -48,7 +48,7 @@ public class Main {
                     String marca = JOptionPane.showInputDialog("Ingrese marca: ");
 
                     ProductoEspecifico objProducto = new ProductoEspecifico(id,nombre,precio,categoria,marca);
-                    objInventario.agregarProducto(objProducto);
+                    objInventario.agregarProductos(objProducto);
                     objInventario.listarProductos();
 
                     break;
@@ -61,7 +61,7 @@ public class Main {
 
                 case "3":
                     String nombreBuscar = JOptionPane.showInputDialog("Ingrese nombre del producto a buscar: ");
-                    productoEncontrado = objInventario.buscarPorNombre(nombreBuscar);
+                    productoEncontrado = objInventario.buscarProductoPorNombre(nombreBuscar);
 
                     if (productoEncontrado != null){
                         JOptionPane.showMessageDialog(null,"Producto encontrado: \n" + productoEncontrado.toString());
@@ -72,7 +72,7 @@ public class Main {
 
                 case "4":
                     String categoriaBuscar = JOptionPane.showInputDialog("Ingrese Categoria a buscar: ");
-                    productoEncontrado = objInventario.buscarPorCategoria(categoriaBuscar);
+                    productoEncontrado = objInventario.buscarProductoPorCategoria(categoriaBuscar);
 
                     if (productoEncontrado != null){
                         JOptionPane.showMessageDialog(null,"Producto encontrado: \n" + productoEncontrado.toString());
