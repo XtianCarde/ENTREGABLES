@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ENTREGABLES.iml" filepath="$PROJECT_DIR$/.idea/ENTREGABLES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEMANA2/SEMANA2.iml" filepath="$PROJECT_DIR$/SEMANA2/SEMANA2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEMANA1/_01_Inventario/_01_Inventario.iml" filepath="$PROJECT_DIR$/SEMANA1/_01_Inventario/_01_Inventario.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEMANA1/_02_Gestion_Empleados/_02_Gestion_Empleados.iml" filepath="$PROJECT_DIR$/SEMANA1/_02_Gestion_Empleados/_02_Gestion_Empleados.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEMANA1/_03_Gestion_Cursos/_03_Gestion_Cursos.iml" filepath="$PROJECT_DIR$/SEMANA1/_03_Gestion_Cursos/_03_Gestion_Cursos.iml" />
