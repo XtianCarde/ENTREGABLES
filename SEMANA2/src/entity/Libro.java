@@ -9,6 +9,7 @@ public class Libro {
 
     private Autor autor;
 
+
     public Libro() {
     }
 
@@ -61,12 +62,20 @@ public class Libro {
         this.fk_id_autor = fk_id_autor;
     }
 
+    public Autor getAutor() {
+        return autor;
+    }
+
+    public void setAutor(Autor autor) {
+        this.autor = autor;
+    }
+
     @Override
     public String toString() {
         return "Libros{" +
                 "id=" + id +
                 ", titulo='" + titulo + '\'' +
-                ", anioPublicacion='" + anioPublicacion + '\'' +
+                ", año publicacion='" + anioPublicacion + '\'' +
                 ", precio=" + precio +
                 ", fk_id_autor=" + fk_id_autor +
                 '}';
