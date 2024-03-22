@@ -109,7 +109,7 @@ public class LibroController {
         LibroModel objLibroModel = new LibroModel();
         AutorModel objAutorModel = new AutorModel();
 
-            List<Object> list = objAutorModel.findAll();
+        List<Object> list = objAutorModel.findAll();
         Autor[] arrAutor = new  Autor[list.size()];
 
         int index = 0;
