@@ -60,6 +60,7 @@ public class LibroController {
         Libro objLibro = objLibroModel.findById(idDeleted);
         int confirmed = 1;
 
+        System.out.println(objLibro.toString());
         if (objLibro == null){
             JOptionPane.showMessageDialog(null,"Book not found");
         } else {

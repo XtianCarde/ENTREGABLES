@@ -111,7 +111,7 @@ public class AutorModel implements CRUD {
         boolean isDeleted = false;
 
         try {
-            String sql = "SELECT FROM autores WHERE id = ?";
+            String sql = "DELETE FROM autores WHERE id = ?";
             PreparedStatement objPrepare = objConnection.prepareStatement(sql);
             objPrepare.setInt(1,objAutor.getId());
             int totalAffectedRow = objPrepare.executeUpdate();

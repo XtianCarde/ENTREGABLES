@@ -112,7 +112,7 @@ public class LibroModel implements CRUD {
         boolean isDeleted = false;
 
         try{
-            String sql = "SELECT FROM libros WHERE id = ?;";
+            String sql = "DELETE FROM libros WHERE id = ?;";
             PreparedStatement objPrepare = objConnection.prepareStatement(sql);
 
             objPrepare.setInt(1,objLibro.getId());
@@ -140,7 +140,7 @@ public class LibroModel implements CRUD {
 
             PreparedStatement objPrepare = objConnection.prepareStatement(sql);
 
-            objPrepare.setInt(1,objLibro.getId());
+            objPrepare.setInt(1,id);
 
             ResultSet objResult = objPrepare.executeQuery();
 
